@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 16px;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+}
+
+nav h1 {
+    font-size: 34px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper .video-game {
+    width: 600px;
+    height: 770px;
+    border: 2px solid #000;
+}
+
+.wrapper .video-game .video-header {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.wrapper .video-game .brief-video-desc {
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.wrapper .video-game .brief-video-desc h3 {
+    width: 200px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.wrapper .video-game .long-video-desc {
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.wrapper .video-game .long-video-desc h3 {
+    width: 200px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.wrapper .video-game .rating-release h4 {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
